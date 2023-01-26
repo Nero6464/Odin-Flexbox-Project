@@ -1,5 +1,18 @@
 /* Set up background colors*/
+.body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.block{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .first.block, .footer.block{
+    display: flex;
+    flex-direction: column;
     background-color: #1f2937;
 
 }
@@ -10,6 +23,8 @@
 
 .third.block{
     background-color: #e5e7eb;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Header block*/
@@ -36,14 +51,159 @@
 
 .first.block .content{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px;
+    gap: 30px;
+
 }
 
-.first.block .main.image{
+.first.block .content .image{
     width: 400px;
     height: auto;
+    max-width: 100%;
+
 }
 
-.first.block .content .header{
-    size: 48px;
+.first.block .content .left .header{
+    font-size: 48px;
     font-weight: bold;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.first.block .content .text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first.block .content .left{
+    width: 300px;
+
+}
+
+.first.block .sign-up.button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Second block content*/
+
+.second.block{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.second.block .content{
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.second.block .header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+.sub.image{
+    width: 100px;
+    height: 100px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.img-cap{
+    width: 150px;
+    text-align: center;
+    
+}
+
+.second.block .text{
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+/*Third Block*/
+
+.third.block .container{
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.third.block .attribute{
+    text-align: right;
+    font-weight: bold;
+}
+
+.third.block .quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+/*Fourth Block*/
+
+.fourth.block .container{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    color: white;
+    gap: 50px;
+    border-radius: 10px;
+
+}
+
+.fourth.block .text{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.fourth.block .button{
+    margin: 50px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+/*Fifth Block*/
+
+.footer.block{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-family: "Hero Secondary Text";
 }
