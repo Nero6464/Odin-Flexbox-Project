@@ -1,0 +1,49 @@
+/* Set up background colors*/
+.first.block, .footer.block{
+    background-color: #1f2937;
+
+}
+
+.second.block, .fourth.block{
+    background-color: white;
+}
+
+.third.block{
+    background-color: #e5e7eb;
+}
+
+/* Header block*/
+.first.block .header{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.first.block .header .logo{
+    size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.first.block .header .link.group .links{
+    text-decoration: none;
+    color: #e5e7eb;
+    size: 18px;
+    font-family: "Hero Secondary text";
+
+}
+
+/* First block content*/
+
+.first.block .content{
+    display: flex;
+}
+
+.first.block .main.image{
+    width: 400px;
+    height: auto;
+}
+
+.first.block .content .header{
+    size: 48px;
+    font-weight: bold;
+}
